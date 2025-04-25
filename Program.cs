@@ -99,7 +99,7 @@ Console.WriteLine("\nFlour: vegetable + vegetable. Proceed? (Y/N)");
 // You enter Y
 Console.ReadLine();
 
-Console.WriteLine("+ Flour (1)");
+Console.WriteLine("\n+ Flour (1)");
 Console.WriteLine("- Vegetable (2)");
 Console.ReadKey();
 
