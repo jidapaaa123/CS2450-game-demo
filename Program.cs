@@ -2,9 +2,11 @@
 // Task: Cook fried chicken (eggs, meat, flour) and feed Cat
 // Flour: vegetables & vegetables
 // Walking to get ingredients
+
 for (int i = 0; i < 11; i++)
 {
     Console.Clear();
+    Console.WriteLine("Pet's Request for Today: Fried Chicken");
     var lines = Maps.Home(i);
 
     Console.WriteLine("________________________________________________________");
@@ -20,10 +22,10 @@ for (int i = 0; i < 11; i++)
     Console.ReadKey(true);
 }
 
-
 for (int i = 0; i < 13; i++)
 {
     Console.Clear();
+    Console.WriteLine("Pet's Request for Today: Fried Chicken");
     var lines = Maps.RanchForward(i);
 
     Console.WriteLine("________________________________________________________");
@@ -42,6 +44,7 @@ for (int i = 0; i < 13; i++)
 for (int i = 1; i < 13; i++)
 {
     Console.Clear();
+    Console.WriteLine("Pet's Request for Today: Fried Chicken");
     var lines = Maps.RanchBackward(i);
 
     Console.WriteLine("________________________________________________________");
@@ -60,6 +63,7 @@ for (int i = 1; i < 13; i++)
 for (int i = 0; i < 16; i++)
 {
     Console.Clear();
+    Console.WriteLine("Pet's Request for Today: Fried Chicken");
     var lines = Maps.HomeBackward(i);
 
     Console.WriteLine("________________________________________________________");
@@ -128,6 +132,7 @@ Console.ReadKey();
 
 // Go back home. Press "E" to feed
 Console.Clear();
+Console.WriteLine("Pet's Request for Today: Fried Chicken");
 var lines1 = Maps.HomeBackward(15);
 
 Console.WriteLine("________________________________________________________");
