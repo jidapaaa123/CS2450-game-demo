@@ -2,23 +2,23 @@
 // Task: Cook fried chicken (eggs, meat, flour) and feed Cat
 // Flour: vegetables & vegetables
 // Walking to get ingredients
-// for (int i = 0; i < 11; i++)
-// {
-//     Console.Clear();
-//     var lines = Maps.Home(i);
+for (int i = 0; i < 11; i++)
+{
+    Console.Clear();
+    var lines = Maps.Home(i);
 
-//     Console.WriteLine("________________________________________________________");
-//     foreach (var line in lines)
-//     {
-//         Console.Write("|");
-//         Console.Write(string.Join("", line));
-//         Console.Write("|");
-//         Console.WriteLine();
-//     }
-//     Console.WriteLine("________________________________________________________");
+    Console.WriteLine("________________________________________________________");
+    foreach (var line in lines)
+    {
+        Console.Write("|");
+        Console.Write(string.Join("", line));
+        Console.Write("|");
+        Console.WriteLine();
+    }
+    Console.WriteLine("________________________________________________________");
 
-//     Console.ReadKey(true);
-// }
+    Console.ReadKey(true);
+}
 
 
 for (int i = 0; i < 13; i++)
